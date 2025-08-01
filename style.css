@@ -1,34 +1,38 @@
+body {
+    margin: 0;
+}
 
-img {
+#background-image {
     max-width: 100%;
 }
+
 h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Itc system-ui,'Open Sans', 'Helvetica Neue', sans-serif;
     margin:auto;
-    /* margin-right: 20%; */
-}
-/* .title {
-    margin-left: 20%;
-    margin-right: 20%;
-} */
-
-button {
-    background-color:#0065f8;
-    color: white;
-    padding: 14px 28px;
-    border-radius:5px ;
-    margin-left:600px;
-    font-weight: bold ;
-    border: 0px solid #0065f8;
-    margin-left:47% ;
+    font-size: 50px;
+    max-width: 800px;
+    color: #032D60;
     
 }
 
 
-a {
+button {
+    background-color:#0065f8;
+    color: white;
+    font-size: 15px;
+    padding: 20px 35px;
+    border-radius:5px ;
+    font-weight: bold ;
+    border: 0px solid #0065f8;
+    margin-left: 47%;
+    margin-top: 50px;
+}
+
+
+.salesforce-link {
     text-decoration: none;
-    font-size:15px ;
+    font-size:13px ;
     color: blue;
 
 }
@@ -36,24 +40,35 @@ li {
     list-style-type: none;
     padding-bottom: 10px;
 }
-#links {
-    display: flex;
 
-}
+
 
 .social-logo {
-    width: 50px;
+    width: 30px;
+    padding-left: 10px;
 }
 #salesforce-logo {
-    width: 100px;
+    width: 90px;
 }
 
 #link-social {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin:0px 400px 0px 400px ;
+    margin:0px 400px 0px 300px ;
+    /* max-width: 60%; */
 }
 
 .social-block {
     display: block;
+}
+
+.social-block-item {
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.social-text {
+    font-weight:bold ;
+    font-size: 15px;
+    color: rgb(77, 60, 60); 
 }
