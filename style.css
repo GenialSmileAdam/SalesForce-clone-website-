@@ -242,3 +242,19 @@ footer p {
     /* font-size: larger; */
     font-weight: bold;
 }
+
+.banner {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #002775;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    
+}
+.banner a {
+    color: white;
+    margin-left:20px ;
+}
