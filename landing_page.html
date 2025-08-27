@@ -2,21 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salesforce</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="landing_page.css" />
 </head>
 
 <body>
     <nav class="salesforce-navbar">
         <div>
-            <img id="salesforce-img" class="center-item" src="./assets/salesforce.svg" alt="">
+            <img id="salesforce-img" class="center-item" src="./assets/salesforce.svg" alt="" />
         </div>
         <div class="navbar-links">
             <ul>
-
-
                 <li>Products</li>
                 <li>Industries</li>
                 <li>Customers</li>
@@ -26,32 +24,111 @@
                 <li>Salesforce+</li>
             </ul>
         </div>
-        <div class="contact-us-nav "> <a href="#">Contact Us</a>
+        <div class="contact-us-nav">
+            <a href="#">Contact Us</a>
             <p>1-800-664-9073</p>
         </div>
-        <div id="img-links" class=" center-item">
+        <div id="img-links" class="center-item">
+            <div class="dropdown">
+                <a href=""><img src="./assets/search_icon.svg" alt="" /></a>
+            </div>
 
-            <a href=""><img src="./assets/search_icon.svg" alt=""></a>
-            <a href=""><img src="assets/globe_icon.png" alt=""></a>
+            <div class="dropdown">
+                <a href=""><img src="assets/globe_icon.png" alt="" /></a>
+                <div class="dropdown-menu">
+                    <h2>Change Region</h2>
 
-            <a href="" id="login" class="center-item"><img src="./assets/person_icon.png" alt="">Login</a>
+                    <section class="flex-body">
+                        <div class="border-right">
+                            <p>Americas</p>
+                            <a href="">América Latina (Español)
 
 
+
+                            </a>
+                            <a href="">Brasil (Português)</a>
+                            <a href="">Canada (English)</a>
+                            <a href="">Canada (Français)</a>
+                            <a href="">United States (English)</a>
+
+                        </div>
+
+                        <div class="border-right">
+                            <p>Europe, Middle East, and Africa</p>
+                            <a href="">España (Español)
+
+
+
+
+
+                            </a>
+                            <a href="">Deutschland (Deutsch)</a>
+                            <a href="">France (Français)</a>
+                            <a href="">
+                                Italia (Italiano)</a>
+                            <a href="">Nederland (Nederlands)</a>
+                            <a href="">Sverige (Svenska)</a>
+                            <a href="">United Kingdom (English)</a>
+                            <a href="">All other countries (English)</a>
+                        </div>
+                        <div>
+                            <p>Asia Pacific</p>
+                            
+                            
+                            
+                            
+                         
+                            
+                           
+                           
+                           
+                            <a href="">Australia & New Zealand (English)</a>
+                            <a href="">India (English)</a>
+                            <a href="">日本 (日本語)</a>
+                            <a href="">中国 (简体中文)</a>
+                            <a href="">台灣 (繁體中文)</a>
+                            <a href="">한국 (한국어)</a>
+                            <a href="">ประเทศไทย (ไทย)</a>
+                            <a href="">All other countries (English)</a>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <div id="login-dropdown"  class="dropdown">
+                <a href="" id="login" class="center-item"><img src="./assets/person_icon.png" alt="person icon" />Login</a>
+                <div class="dropdown-menu">
+                    <div>
+                        <h2>Login</h2>
+                    </div>
+                    <div>
+                        <p>Product</p>
+                    </div>
+                    <a href="">Salesforce <img src="assets/salesforce.svg" alt="salesforce icon"></a>
+                    <a href="">Marketing Cloud</a>
+                    <hr />
+                    <div class="border-top">
+                        <p>Experiences</p>
+                        <a href="">Trailblazer Account</a>
+                        <p>
+                            Access Trailhead, your Trailblazer profile, community, learning,
+                            original series, events, support, and more.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="center-item">
             <button id="try-for-free-button">Try for free</button>
         </div>
-
-
-
-
-
-
     </nav>
+
     <div class="banner">
         <p>
-            Need Salesforce support? Get answers fast from our AI agent on salesforce Help.
-        </p> <a href="">Go to Help</a>
+            Need Salesforce support? Get answers fast from our AI agent on
+            salesforce Help.
+        </p>
+        <a href="">Go to Help</a>
     </div>
 </body>
 

@@ -1,0 +1,193 @@
+/* landing page */
+
+body {
+    margin: 0;
+}
+.salesforce-navbar {
+    display: flex;
+    /* flex-wrap:wrap ; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    letter-spacing: .5px;
+    /* justify-content: space-between; */
+    height: 90px;
+    width: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+}
+.navbar-links li {
+
+    list-style-type: none;
+    padding:  0px 18px 0px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #032D60;
+}
+.contact-us-nav {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-nav a,
+.contact-us-nav p {
+    margin: 0;
+}
+
+
+
+.navbar-links li:hover,
+.contact-us-nav p:hover,
+.contact-us-nav a:hover {
+    color: #0B5CAB;
+}
+
+#salesforce-img {
+    width: 68px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#try-for-free-button {
+    background-color: #2E844A;
+    padding: 13px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 20px;
+    border: 0px;
+
+}
+
+#try-for-free-button:hover {
+        background-color: rgb(5, 68, 5)
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-links img {
+    width: 20px;
+    margin: 0px;
+    border-radius: 30px;
+}
+#img-links a:hover {
+    background-color: rgba(92, 211, 247, 0.26);
+}
+
+.dropdown > a, .contact-us-nav a {
+    /* text-decoration: none; */
+    font-size: 15px;
+    /* height: auto; */
+    font-family: sans-serif;
+    color: #032D60;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 2px;
+
+}
+#login {
+    text-decoration: none;
+    /* font-size: larger; */
+    font-weight: bold;
+}
+
+.banner {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #002775;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+
+    
+}
+.banner a {
+    color: white;
+    margin-left:20px ;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position:absolute;
+    background-color: white;
+    font-size: 14px;
+    width:700px;
+    right: -110px;
+    padding: 20px;
+    /* margin-top: 10px; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+#login-dropdown .dropdown-menu{
+    width: 200px;
+}
+
+.dropdown h2 {
+    font-weight: bold;dssw: .ew;\][0..]
+}
+.border-top {
+    border-top:1px solid gray;
+}
+.dropdown-menu h2, 
+.dropdown-menu p , 
+.dropdown-menu  a{
+    margin: 10px 0px;
+    /* text-decoration: none; */
+    color: #032D60;
+}
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+.flex-body {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+.flex-body div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    
+    
+}
+
+
+.flex-body div p {
+    margin-bottom: 20px;
+    color:gray;
+}
+
+.flex-body div a {
+    margin: 3px;
+}
+
+.border-right {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
